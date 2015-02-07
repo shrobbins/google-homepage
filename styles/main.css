@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	color: #666;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*my css*/
+
+#container {margin: 0 auto;
+}
+	
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.main_menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.main_menu li { display: inline;
+float: right; }
+
+.nine_image { 
+	margin-top: -10px;
+	border: 0;
+}
+
+.main_menu a:link, .main_menu a.visited {
+    color:#808080;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main_menu a:hover, .main_menu a:active {
+  text-decoration: underline;
+}
+
+ .sign_in a {
+     color: #fff;
+     font-weight: bold;
+     font-size: 14px;
+  border-radius: 1px;
+     padding: 7px;
+ }
+
+ .sign_in a:link{
+  background-color: #4684EE;
+  text-decoration:none;
+  display: inline;
+  margin-right: 20px;
+  float: right;
+  margin-top: 12px;
+}
+	
+
+img.google{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	clear: both;
+	padding-top: 102px;
+	margin-bottom: -20px;
+    }
+
+    
+form {
+          width:480px;
+          margin:50px auto;
+}
+                
+
+.input_style { width:480px;
+	    height: 25px;
+	    border: 1px solid #D1D1D1;
+	    } 
+	    
+.buttons {	
+  padding:5px;
+  background-color: #F7F7F7;
+  border: 1px solid #D1D1D1;
+  text-decoration:none;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 2px;
+  color: #333;
+}
+
+.buttons a:hover, a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+.button {
+	text-align: center;
+	margin-top: -25px;
+}
+
+.lower_bar {
+	border-top: 1px solid #D1D1D1;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color:#F2F2F2;
+}
+
+.lower_left_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lower_left_menu  { 
+display: inline;
+ }
+
+
+.lower_right_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.lower_right_menu { 
+display: inline;
+float: right; }
+
+.lower_right_menu a:link, .lower_right_menu a.visited {
+    color:#808080;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.lower_left_menu a:link, .lower_left_menu a.visited {
+    color:#808080;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.main_content{
+	margin-bottom: 264px;
+}
+.lower_bar a{
+	font-size: 12px;
+}
+
+.lower_bar a:link, .lower_bar a.visited {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.lower_bar a:hover, .lower_bar a:active {
+  text-decoration: underline;
+}
