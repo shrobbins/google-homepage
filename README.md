@@ -1,5 +1,4 @@
 # google-homepage
-Assignment for the odin project
 
 Odin project Assignment - Google  Home Page
 
