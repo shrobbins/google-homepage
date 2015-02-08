@@ -1,0 +1,2 @@
+#Exclude os x folder attributes
+.DS_Store
